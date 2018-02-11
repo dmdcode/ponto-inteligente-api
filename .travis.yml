@@ -1,5 +1,8 @@
 language: java
 
+before_script:
+ - chmod +x ./travis/setup-mysql.sh
+ 
 before_install:
  - chmod +x gradlew
 
