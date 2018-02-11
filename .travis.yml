@@ -9,6 +9,6 @@ before_install:
 jdk:
   - oraclejdk8
 install:
-- sudo mvn -N io.takari:maven:wrapper
+- sudo mvn -clean
 script:
  - sudo chmod +x ./gradlew build connectedCheck
