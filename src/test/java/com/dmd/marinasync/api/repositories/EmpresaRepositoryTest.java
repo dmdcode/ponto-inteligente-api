@@ -1,4 +1,4 @@
-package com.dmd.pontointeligente.api.repositories;
+package com.dmd.marinasync.api.repositories;
 
 import static org.junit.Assert.assertEquals;
 

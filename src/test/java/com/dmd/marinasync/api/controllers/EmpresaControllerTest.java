@@ -1,4 +1,4 @@
-package com.dmd.pontointeligente.api.controllers;
+package com.dmd.marinasync.api.controllers;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;

@@ -1,4 +1,4 @@
-package com.dmd.pontointeligente.api.services;
+package com.dmd.marinasync.api.services;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;

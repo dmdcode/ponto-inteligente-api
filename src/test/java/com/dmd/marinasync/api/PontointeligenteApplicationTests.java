@@ -1,4 +1,4 @@
-package com.dmd.pontointeligente.api;
+package com.dmd.marinasync.api;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
