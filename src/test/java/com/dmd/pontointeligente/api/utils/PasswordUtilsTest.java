@@ -6,6 +6,8 @@ import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
+import com.dmd.marinasync.api.utils.PasswordUtils;
+
 public class PasswordUtilsTest {
 	
 	private static final String SENHA = "123456";

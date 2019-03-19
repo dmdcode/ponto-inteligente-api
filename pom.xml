@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.dmd</groupId>
-	<artifactId>ponto-inteligente</artifactId>
+	<artifactId>marinasync</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>Pontointeligente</name>
-	<description>Api para o sistema de ponto inteligente</description>
+	<name>marinasync</name>
+	<description>Api para o sistema de controle de marina</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>

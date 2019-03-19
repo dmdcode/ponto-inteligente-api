@@ -17,12 +17,15 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.dmd.pontointeligente.api.entities.Empresa;
-import com.dmd.pontointeligente.api.entities.Funcionario;
-import com.dmd.pontointeligente.api.entities.Lancamento;
-import com.dmd.pontointeligente.api.enums.PerfilEnum;
-import com.dmd.pontointeligente.api.enums.TipoEnum;
-import com.dmd.pontointeligente.api.utils.PasswordUtils;
+import com.dmd.marinasync.api.entities.Empresa;
+import com.dmd.marinasync.api.entities.Funcionario;
+import com.dmd.marinasync.api.entities.Lancamento;
+import com.dmd.marinasync.api.enums.PerfilEnum;
+import com.dmd.marinasync.api.enums.TipoEnum;
+import com.dmd.marinasync.api.repositories.EmpresaRepository;
+import com.dmd.marinasync.api.repositories.FuncionarioRepository;
+import com.dmd.marinasync.api.repositories.LancamentoRepository;
+import com.dmd.marinasync.api.utils.PasswordUtils;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

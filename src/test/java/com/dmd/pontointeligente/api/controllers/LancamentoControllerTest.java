@@ -24,12 +24,12 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.dmd.pontointeligente.api.dtos.LancamentoDto;
-import com.dmd.pontointeligente.api.entities.Funcionario;
-import com.dmd.pontointeligente.api.entities.Lancamento;
-import com.dmd.pontointeligente.api.enums.TipoEnum;
-import com.dmd.pontointeligente.api.services.FuncionarioService;
-import com.dmd.pontointeligente.api.services.LancamentoService;
+import com.dmd.marinasync.api.dtos.LancamentoDto;
+import com.dmd.marinasync.api.entities.Funcionario;
+import com.dmd.marinasync.api.entities.Lancamento;
+import com.dmd.marinasync.api.enums.TipoEnum;
+import com.dmd.marinasync.api.services.FuncionarioService;
+import com.dmd.marinasync.api.services.LancamentoService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

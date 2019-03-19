@@ -16,8 +16,9 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.dmd.pontointeligente.api.entities.Funcionario;
-import com.dmd.pontointeligente.api.repositories.FuncionarioRepository;
+import com.dmd.marinasync.api.entities.Funcionario;
+import com.dmd.marinasync.api.repositories.FuncionarioRepository;
+import com.dmd.marinasync.api.services.FuncionarioService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

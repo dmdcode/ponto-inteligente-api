@@ -20,8 +20,9 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.dmd.pontointeligente.api.entities.Lancamento;
-import com.dmd.pontointeligente.api.repositories.LancamentoRepository;
+import com.dmd.marinasync.api.entities.Lancamento;
+import com.dmd.marinasync.api.repositories.LancamentoRepository;
+import com.dmd.marinasync.api.services.LancamentoService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

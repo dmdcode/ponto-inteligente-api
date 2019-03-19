@@ -11,7 +11,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.dmd.pontointeligente.api.entities.Empresa;
+import com.dmd.marinasync.api.entities.Empresa;
+import com.dmd.marinasync.api.repositories.EmpresaRepository;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

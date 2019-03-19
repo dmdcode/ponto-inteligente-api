@@ -21,8 +21,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
-import com.dmd.pontointeligente.api.entities.Empresa;
-import com.dmd.pontointeligente.api.services.EmpresaService;
+import com.dmd.marinasync.api.entities.Empresa;
+import com.dmd.marinasync.api.services.EmpresaService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
